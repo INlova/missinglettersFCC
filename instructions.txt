@@ -1,8 +1,15 @@
-Input - String of chars - a-z, special no wrap z to a, casee not important! 
-Output - undefined if no missing, or the missing character. " as above.  
-"abce"
-Single possible missing char
+// input - string of characters "a-z" no special characters, no wrap around "z to a".  In this situation, case is not important
 
-Example: 
+//output - 'undefined' if no character is missing, or the missing character will be returned.  also, same items as above  
 
-Input: "abce" output "d" 
+// example: input "abce" Output: 'd'
+
+//1 first character = 'a'
+
+// 2 check if next letter is in alphabet
+//      3check if another letter available
+//          4Go to the next letter and repeat step 2.
+//5 (else)
+//      6 return undefined 
+//7 else
+//  8 return expected character
