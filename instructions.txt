@@ -1,0 +1,8 @@
+Input - String of chars - a-z, special no wrap z to a, casee not important! 
+Output - undefined if no missing, or the missing character. " as above.  
+"abce"
+Single possible missing char
+
+Example: 
+
+Input: "abce" output "d" 
